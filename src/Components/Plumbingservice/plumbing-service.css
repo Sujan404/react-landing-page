@@ -1,0 +1,74 @@
+.plumbing-service-container{
+    width: 100%;
+    height: 700px;
+    background-color: #e9e3e3;
+    padding: 0 5rem;
+}
+.plumbing-service-bonus-container{
+    position: relative;
+}
+
+.plumbing-service-bonus-container::before{
+    content: "";
+    position: absolute;
+    right: 1rem;
+    bottom: 0rem;
+    /* border-top: 35px solid red transparent; */
+    border-right: 24px solid #e9e3e3;
+    border-top: 24px solid #ffd100;
+    transform: translate(70%) rotate(360deg);
+}
+
+.plumbing-service-bonus-container .plumbing-service-discount,
+.plumbing-service-bonus-container .plumbing-service-discount-right{
+    margin-top: 5rem;
+    height: 6rem;
+    background-color: #ffd100;
+}
+
+.plumbing-service-bonus-container .plumbing-service-discount-container{
+    border: 3px dashed #fff;
+    background-size: 3px 1px;
+    width: 10rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.plumbing-service-bonus-container .plumbing-service-discount-border{
+    padding: 1rem;
+}
+.plumbing-service-bonus-container .plumbing-service-discount-right{
+    padding: 1rem 1rem 1rem 0;
+    font-weight: 700;
+}
+
+.plumbing-service-bonus-container .plumbing-service-discount-right h3{
+    font-weight: 700;
+}
+.plumbing-service-discount-container h3 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.plumbing-service-discount-container span.text-rotate {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transform: rotate(270deg);
+}
+
+.plumbing-service-container .plumbing-service-offer{
+    margin-top: 2rem;
+}
+.plumbing-service-offer-intro-container .plumbing-service-offer-heading h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.plumbing-service-offer-intro-container .plumbing-service-offer-heading h1 .blue-highlight-text{
+    color: #00aeff;
+}
+
+.plumbing-service-offer-intro-container p.plumbing-service-offer-paragraph{
+    font-size: 1.5rem;
+}

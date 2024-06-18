@@ -1,0 +1,184 @@
+.intro-body {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.plumber-img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.plumber-img-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.7);
+}
+.plumber-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/images/plumber.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.technician-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* width: 65vw; */
+  width: 60vw;
+  /* height: 100%; */
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.intro-content {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+  color: white;
+}
+
+.intro-content .intro-hotwater {
+  position: relative;
+  /* padding: 1rem 0rem; */
+  background-color: #00aeff;
+  width: 94%;
+}
+
+.intro-content .intro-hotwater::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -44px;
+  width: 0;
+  height: 0;
+  border-top: 135px solid transparent;
+  border-right: 45px solid #00aeff; /* Change this color to the desired border color */
+  transform: translateY(-0%) rotate(180deg);
+}
+
+.technician-img {
+  height: 100%;
+  width: auto;
+  object-fit: fill;
+}
+
+.intro-content h1 {
+  font-size: 7rem;
+  /* line-height: 6rem; */
+  font-weight: 800;
+  transform: scaleY(1.1);
+}
+.price-content {
+  margin-top: 2rem;
+}
+.price-content-list-i,
+.price-content-list-ii,
+.price-content-list-iii {
+  margin-bottom: 0.5rem;
+}
+.price-content-list-i p,
+.price-content-list-ii p,
+.price-content-list-iii p {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.price-content-list-i small,
+.price-content-list-ii small,
+.price-content-list-iii small {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.list-img-container {
+  width: 5rem;
+  height: auto;
+  border-radius: 50%;
+  background-size: contain;
+  background-color: #00aeff;
+  margin-right: 2rem;
+}
+
+.list-img-container .list-img {
+  transform: scale(0.6);
+  /* width: 3rem;
+    height: auto; */
+}
+
+/* .price-content-list-i::before{
+    content: "Helo";
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.service-rating {
+  position: absolute;
+  width: 58%;
+  height: auto;
+  bottom: 1rem;
+  right: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.service-rating-facebook,
+.service-rating-google,
+.emergency-services {
+  width: 200px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 !important;
+  transform: skewX(-10deg);
+}
+
+.service-rating-facebook {
+  background-color: #0c6cb9;
+  color: #fff;
+}
+.service-rating-google {
+  background-color: #dd1717;
+  color: #fff;
+}
+.service-rating-facebook .card-title,
+.service-rating-google .card-title {
+  margin-bottom: 0 !important;
+  font-size: 5rem;
+}
+
+.service-rating-facebook .card-text h3,
+.service-rating-google .card-text h3 {
+  margin-top: 0.5rem !important;
+}
+
+.emergency-services {
+  background-color: #ffd100;
+  color: #000;
+  padding-top: 1rem;
+}
+
+.emergency-services .card-title {
+  margin-bottom: 0 !important;
+  font-size: 5rem;
+}
+
+.emergency-services .card-text > small {
+  font-size: 1.5rem;
+  line-height: 0;
+}
+/* .intro-content{
+    background-color:#1f1f1f ;
+} */
