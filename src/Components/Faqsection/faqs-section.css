@@ -1,4 +1,25 @@
 .faqs-section{
-    padding: 0 5rem;
+    padding: 3rem 5rem;
     background-color: #f0f0f0;
+}
+
+.faqs-section .faqs-section-title h1{
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.faqs-section .faqs-section-title .faqs-blue-text{
+    color: #00aeff;
+}
+
+.faqs-section .faqs-section-description h3{
+    font-size: 1.5rem;
+}
+
+.faqs-section .faqs-phone{
+    background-color: #00aeff;
+}
+.faqs-section .faqs-quote{
+    background-color: #004881;
+    color: white;
 }

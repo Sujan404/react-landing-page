@@ -1,0 +1,88 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  background-color: #004881;
+  padding: 0 5rem;
+  position: relative;
+}
+.footer-container::before{
+    content: "";
+    position: absolute;
+    top: -18rem;
+    left: -5rem;
+    border-left: 16rem solid transparent;
+    border-bottom: 20rem solid #004881;
+    transform:rotate(90deg) translateY(0%);
+}
+
+.footer-container .footer-content-container {
+  padding: 5rem;
+}
+
+.footer-container .footer-content-container .footer-logo-container {
+  width: 25rem;
+  height: 10rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.footer-container .footer-content-container .footer-logo-container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #004881;
+}
+
+.footer-container .footer-content-container .footer-topic{
+   padding: 1rem 0;
+   border-bottom-color: #00aeff;
+  background-image: linear-gradient(
+    to right,
+    #00aeff 20%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 340px 6px;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+.footer-container .footer-content-container .footer-topic h1{
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-container .footer-content-container .footer-topic-links{
+    color: #fff;
+    font-weight: 600;
+}
+.footer-container .footer-content-container .footer-topic-links .quote-banner-text{
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    width: 187.75px;
+    height: 55px;
+    background-color: #fff;
+    transform: skewX(-10deg);
+}
+
+.footer-container .footer-content-container .footer-topic-links .quote-banner-text h5{
+    color: #00aeff;
+}
+
+.footer-container .footer-content-container .footer-separator{
+    margin:2rem 0;
+    width: 100%;
+    height: 0.2rem;
+    background-color: #335c78;
+}
+
+.footer-container .footer-content-container .footer-logo{
+    width: 12rem;
+    height: auto;
+    margin-left: 2rem
+}
+
+.footer-container .footer-content-container .footer-end p{
+    color: #fff;
+    margin-bottom: 0 !important;
+}

@@ -9,6 +9,9 @@ import { Quotebanner } from './Components/Quotebanner/quotebanner';
 import { Deliversection } from './Components/Deliversection/deliversection';
 import { Repairsection } from './Components/Repairsection/repairsection';
 import { Faqsection } from './Components/Faqsection/faqsection';
+import { Joinplumbing } from './Components/Joinplumbing/joinplumbing';
+import { Clients } from './Components/Clients/clients';
+import { Footer } from './Components/Footer/footer';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Deliversection/>
       <Repairsection/>
       <Faqsection/>
+      <Joinplumbing/>
+      <Clients />
+      <Footer/>
       </body>
   );
 }

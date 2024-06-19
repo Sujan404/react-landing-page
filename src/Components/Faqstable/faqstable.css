@@ -1,0 +1,20 @@
+.faqs-table-box {
+  padding: 2rem 2rem 2rem 0;
+  border-bottom-color: #cacaca;
+  background-image: linear-gradient(
+    to right,
+    #cacaca 50%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 35px 3px;
+  background-repeat: repeat-x;
+}
+.faqs-table-box .plus-sign-container {
+  width: 2rem;
+  height: auto;
+}
+
+.faqs-table-box .faqs-table-description p{
+    font-size: 1.5rem;
+}
