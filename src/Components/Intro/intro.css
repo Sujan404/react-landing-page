@@ -23,7 +23,7 @@
   width: 100%;
   height: 100vh;
   background-image: url("../../assets/images/plumber.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -32,10 +32,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  /* width: 65vw; */
-  width: 60vw;
-  /* height: 100%; */
-  height: auto;
+  width: auto;
+  height: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -68,6 +66,7 @@
 }
 
 .technician-img {
+  min-width: 30rem;
   height: 100%;
   width: auto;
   object-fit: fill;
@@ -146,7 +145,7 @@
 }
 
 .service-rating-facebook {
-  background-color: #0c6cb9;
+  background-color: #0c6cb9 !important;
   color: #fff;
 }
 .service-rating-google {

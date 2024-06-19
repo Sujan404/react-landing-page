@@ -1,0 +1,59 @@
+.deliver-section-container{
+    position: relative;
+    width: 100%;
+    padding: 0 5rem;
+    height: auto;
+    background: linear-gradient(100deg, #00aeff 50%, transparent 50%),
+              linear-gradient(100deg,#fff 51%, transparent 50%),
+              url("../../assets/images/plumber-ii.png") right center no-repeat;
+}
+
+.deliver-section-container .deliver-section-right-container{
+   /* margin-top: 6rem; */
+   margin: 6rem 4rem 10rem 4rem;
+}
+.deliver-section-right-container .deliver-section-title h1{
+    font-size: 6rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.deliver-section-right-container .deliver-section-description p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.deliver-section-card .deliver-section-card-i,
+.deliver-section-card .deliver-section-card-ii{
+    width: 22rem;
+    height: 13rem;
+    background-color: #fff;
+    transform: skewX(-10deg);
+    padding: 2rem;
+}
+
+.deliver-section-card .deliver-section-img{
+    width: 6rem;
+    height: auto;
+}
+
+.deliver-section-card .deliver-section-img{
+    width: 8rem;
+    height: auto;
+}
+
+.deliver-section-card .deliver-section-img .deliver-section-img-icon{
+    padding-left: 0px;
+    transform: scale(0.6);
+}
+
+.deliver-section-card .deliver-section-card-i h3,
+.deliver-section-card .deliver-section-card-ii h3{
+    font-weight: 700;
+    color: #00aeff;
+}
+
+.deliver-section-card .deliver-section-card-i p,
+.deliver-section-card .deliver-section-card-ii p{
+    font-weight: 500;
+}

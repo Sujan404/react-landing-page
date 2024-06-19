@@ -1,0 +1,52 @@
+.thumbnail-card{
+    border-radius: 0;
+    background-color: #808080;
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+    height: 13rem;
+}
+
+.card-body{
+    padding: 0;
+    height: 17rem;
+}
+
+.card-content{
+    position: relative;
+    width: 85%;
+    height: 4rem;
+    background-color: #004881;
+    overflow: hidden;
+}
+
+.card-content::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 5rem solid #004881;
+    border-top: 6rem solid #808080;
+    transform: translate(30%) rotate(0deg);
+}
+
+.card-icon-container{
+    width: 4rem;
+    height: 100%;
+    background-color: #00aeff;
+    padding: auto ;
+    text-align: center;
+}
+
+.card-icon-container .card-plumbing-icon{
+    transform: scale(0.65);
+}
+.card-content .card-description h5{
+    color: #fff;
+    font-weight: 700;
+}
+
+.card-content .card-description{
+    margin-left: 2rem;
+}

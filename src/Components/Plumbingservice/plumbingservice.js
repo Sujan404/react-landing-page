@@ -1,6 +1,14 @@
 import React from "react";
 import "./plumbing-service.css";
-import { Col, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
+import { Offerthumbnail } from "../Offerthumbnail/offerthumbnail";
+import dux from "../../assets/icons/dux.png";
+import parisi from "../../assets/icons/parisi.png";
+import grohe from "../../assets/icons/grohe.png";
+import aquamax from "../../assets/icons/aquamax.png";
+import rheem from "../../assets/icons/rheem.png";
+import thermann from "../../assets/icons/thermann.png";
+import vulcan from "../../assets/icons/vulcan.png";
 
 export const Plumbingservice = () => {
   return (
@@ -44,9 +52,68 @@ export const Plumbingservice = () => {
           </Row>
         </div>
         <div className="plumbing-service-offer-thumbnail">
-
+          <Row>
+            <Col lg={3}>
+              <Offerthumbnail description={"BLOCKED DRAINS"} />
+            </Col>
+            <Col lg={3}>
+              <Offerthumbnail description={"HOTWATER"} />
+            </Col>
+            <Col lg={3}>
+              <Offerthumbnail description={"LEAKING PIPES"} />
+            </Col>
+            <Col lg={3}>
+              <Offerthumbnail description={"GAS FITTING"} />
+            </Col>
+          </Row>
+          <Row className="mt-5">
+            <Col lg={3}>
+              <Offerthumbnail description={"LEAKING TAPS"} />
+            </Col>
+            <Col lg={3}>
+              <Offerthumbnail description={"PIPE REUNING"} />
+            </Col>
+            <Col lg={3}>
+              <Offerthumbnail description={"LEAKING TOILETS"} />
+            </Col>
+            <Col lg={3}>
+              <Offerthumbnail description={"LEAK DETECTION"} />
+            </Col>
+          </Row>
         </div>
       </div>
+      <div className="our-brands mt-5">
+        <div className="our-brands-heading d-flex align-items-center justify-content-between">
+          <div className="our-brands-title">
+            <h3>We use well known brands including</h3>
+          </div>
+          <div className="our-brands-title-separator"></div>
+        </div>
+        <div className="our-brands-logo d-flex justify-content-around mt-4">
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={vulcan} alt="Vulcan" />
+            </div>
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={thermann} alt="Thermann" />
+            </div>
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={parisi} alt="Parisi" />
+            </div>
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={grohe} alt="Grohe" />
+            </div>
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={dux} alt="Dux" />
+            </div>
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={aquamax} alt="Aquamax" />
+            </div>
+            <div className="our-brands-logo-icons">
+              <img className="our-brands-logo-img img-fluid" src={rheem} alt="Rheem" />
+            </div>
+        </div>
+      </div>
+     
     </section>
   );
 };

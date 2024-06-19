@@ -1,6 +1,6 @@
 .plumbing-service-container{
     width: 100%;
-    height: 700px;
+    height: 1400px;
     background-color: #e9e3e3;
     padding: 0 5rem;
 }
@@ -71,4 +71,33 @@
 
 .plumbing-service-offer-intro-container p.plumbing-service-offer-paragraph{
     font-size: 1.5rem;
+}
+
+.plumbing-service-offer .plumbing-service-offer-thumbnail{
+    margin-top: 5rem;
+}
+
+.our-brands .our-brands-heading .our-brands-title h3{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+}
+
+.our-brands .our-brands-heading .our-brands-title-separator{
+    width: 65%;
+    height: 0.2rem;
+    background-color:#cacaca;
+    border-radius: 3rem;
+}
+.our-brands-logo .our-brands-logo-icons{
+    width: 12rem;
+    height: auto;
+}
+
+.our-brands-logo .our-brands-logo-icons .our-brands-logo-img{
+    width: auto;
+    height: 6rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
 }
