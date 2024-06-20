@@ -1,9 +1,9 @@
 .quote-banner-container{
     width: 100%;
-    padding: 0 5rem;
+    padding: 5rem 5rem;
     /* background-color: #0074ff; */
     background: linear-gradient(100deg, #0074ff 60%, #004881 60%);
-    height: 10rem;
+    height: auto;
 }
 .quote-banner-container .quote-banner{
     width: 100%;
@@ -17,14 +17,14 @@
 }
 
 .quote-banner .quote-banner-left-content{
-    width: 70%;
+    /* width: 70%; */
 }
 
 .quote-banner-right-content .quote-banner-phone{
     display: grid;
     place-items: center;
-    width: 187.75px;
-    height: 55px;
+    width: 14rem;
+    height: 6rem;
     color: #ffff;
     background-color: #004881;
     transform: skewX(-10deg);
@@ -35,9 +35,83 @@
 .quote-banner-right-content .quote-banner-text{
     display: grid;
     place-items: center;
-    width: 187.75px;
-    height: 55px;
+    width: 14rem;
+    height: 6rem;
     background-color: #fff;
     color: #00aeff;
     transform: skewX(-10deg);
+}
+
+@media (max-width:1500px){
+    .quote-banner .quote-banner-left-content{
+        min-width: 40rem;
+        flex-direction: row;
+        margin-right: 20%;
+    }
+
+    .quote-banner-right-content .quote-banner-phone {
+        min-width: 21rem;
+        margin-bottom: 1rem;
+    }
+    .quote-banner-right-content .quote-banner-text {
+        min-width: 20rem;
+    }
+}
+
+@media (max-width:1400px){
+    .quote-banner .quote-banner-left-content{
+        min-width: 40rem;
+        flex-direction: row;
+        margin-right: 18%;
+    }
+}
+
+@media (max-width:1350px){
+    .quote-banner .quote-banner-left-content{
+        min-width: 40rem;
+        flex-direction: row;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width:1300px){
+    .quote-banner .quote-banner-left-content{
+        min-width: 40rem;
+        flex-direction: row;
+        margin-right: 12%;
+    }
+}
+
+@media (max-width:1300px){
+    .quote-banner .quote-banner-left-content{
+        min-width: 40rem;
+        flex-direction: row;
+        margin-right: 9%;
+    }
+}
+
+@media (max-width:1300px){
+    .quote-banner .quote-banner-left-content{
+        min-width: auto;
+        flex-direction: row;
+        margin-right: 9%;
+    }
+}
+
+@media (max-width:767px){
+    .quote-banner-container .quote-banner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .quote-banner .quote-banner-left-content {
+        min-width:auto;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .quote-banner-right-content{
+        justify-content: center;
+    }
 }

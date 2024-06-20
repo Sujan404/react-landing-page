@@ -8,10 +8,10 @@
 .footer-container::before{
     content: "";
     position: absolute;
-    top: -18rem;
-    left: -5rem;
-    border-left: 16rem solid transparent;
-    border-bottom: 20rem solid #004881;
+    top: -8rem;
+    left: 0rem;
+    border-left: 8rem solid transparent;
+    border-bottom: 8rem solid #004881;
     transform:rotate(90deg) translateY(0%);
 }
 

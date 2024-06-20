@@ -1,7 +1,7 @@
 .repair-section {
   padding: 0 5rem;
   width: 100%;
-  height: 40rem;
+  height: auto;
   background-color: #f0f0f0;
 }
 
@@ -105,4 +105,32 @@
 .repair-payment-options-container .repair-payment-option-iii-description p{
     font-weight: 600;
     line-height: 0.35rem;
+}
+
+@media (max-width: 1600px){
+  .repair-payment-container .repair-section-logo {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .repair-section .repair-payment-container {
+    padding: 3rem;
+  }
+  .payment-description .payment-description-plan h3 {
+    font-size: 2rem;
+  }
+  .payment-description .payment-description-pay-later h1 {
+    font-size: 3.5rem;
+  }
+
+  .repair-payment-container .payment-card-img {
+    top: -4.2rem;
+    transform: scale(1.5) rotate(-10deg);
+  }
+}
+
+@media (max-width:1750px){
+  .payment-description .payment-description-pay-later h1 {
+    font-size: 3.6rem;
+  }
 }

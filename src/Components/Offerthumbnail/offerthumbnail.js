@@ -9,7 +9,7 @@ export const Offerthumbnail = ({description}) => {
       <Card.Body>
         <div className="card-img"></div>
         <Card.Text className="card-content d-flex ">
-          <div className="card-icon-container">
+          <div className="card-icon-container d-flex justify-content-center">
             <img className="img-fluid card-plumbing-icon" src={plumbing} alt="Plumbing White" />
           </div>
           <div className="card-description d-flex align-items-center">

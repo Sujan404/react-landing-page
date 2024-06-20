@@ -7,8 +7,8 @@ export const Repairsection = () => {
     <section className="repair-section">
       <div className="repair-section-absolute-position">
         <div className="repair-payment-container">
-          <Row>
-            <Col lg={3}>
+          <Row className="d-flex flex-wrap">
+            <Col lg={3} className="d-flex justify-content-center align-items-center">
               <div className="repair-section-logo d-flex justify-content-center align-items-center">
                 <h1>LOGO</h1>
               </div>

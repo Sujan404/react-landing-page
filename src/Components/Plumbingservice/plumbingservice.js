@@ -42,7 +42,7 @@ export const Plumbingservice = () => {
                 we offer
               </h1>
             </div>
-            <Col lg={6}>
+            <Col lg={12}>
               <p className="plumbing-service-offer-paragraph text-center">
                 We are industry leaders providing quality plumbing, drainage,
                 hotwater, and roofing-related services to our Community of
@@ -51,45 +51,54 @@ export const Plumbingservice = () => {
             </Col>
           </Row>
         </div>
-        <div className="plumbing-service-offer-thumbnail">
-          <Row>
-            <Col lg={3}>
+        <div className="plumbing-service-offer-thumbnail d-inline-flex flex-wrap">
+
+        <Offerthumbnail description={"BLOCKED DRAINS"} />
+        <Offerthumbnail description={"HOTWATER"} />
+        <Offerthumbnail description={"LEAKING PIPES"} />
+        <Offerthumbnail description={"GAS FITTING"} />
+        <Offerthumbnail description={"LEAKING TAPS"} />
+        <Offerthumbnail description={"PIPE REUNING"} />
+        <Offerthumbnail description={"LEAKING TOILETS"} />
+        <Offerthumbnail description={"LEAK DETECTION"} />
+          {/* <Row>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"BLOCKED DRAINS"} />
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"HOTWATER"} />
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"LEAKING PIPES"} />
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"GAS FITTING"} />
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"LEAKING TAPS"} />
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"PIPE REUNING"} />
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"LEAKING TOILETS"} />
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={4}>
               <Offerthumbnail description={"LEAK DETECTION"} />
             </Col>
-          </Row>
+          </Row> */}
         </div>
       </div>
       <div className="our-brands mt-5">
-        <div className="our-brands-heading d-flex align-items-center justify-content-between">
+        <div className="our-brands-heading d-flex flex-wrap align-items-center justify-content-between">
           <div className="our-brands-title">
             <h3>We use well known brands including</h3>
           </div>
           <div className="our-brands-title-separator"></div>
         </div>
-        <div className="our-brands-logo d-flex justify-content-around mt-4">
+        <div className="our-brands-logo d-flex flex-wrap justify-content-around mt-4">
             <div className="our-brands-logo-icons">
               <img className="our-brands-logo-img img-fluid" src={vulcan} alt="Vulcan" />
             </div>

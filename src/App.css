@@ -3,5 +3,12 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+@media (max-width: 992px) {
+  .box-hide-992{
+    display: none;
+  }
+  
 }
