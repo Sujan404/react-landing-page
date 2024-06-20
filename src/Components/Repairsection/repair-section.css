@@ -1,5 +1,5 @@
 .repair-section {
-  padding: 0 5rem;
+  padding: 0 5rem 40rem 5rem;
   width: 100%;
   height: auto;
   background-color: #f0f0f0;
@@ -30,11 +30,12 @@
   background-color: #fff;
   padding: 4rem;
 }
-.repair-payment-options-container .repair-payment-option-separator{
-    width: 0.2rem;
-    height:5rem;
-    background-color: #cacaca;
-    border-radius: 50%;
+.repair-payment-options-container .repair-payment-option-separator {
+  margin: 0 3.05rem;
+  width: 0.2rem;
+  height: 5rem;
+  background-color: #cacaca;
+  border-radius: 50%;
 }
 
 .repair-payment-container .repair-section-logo {
@@ -94,20 +95,24 @@
 
 .repair-payment-options-container .repair-payment-option-i-title h1,
 .repair-payment-options-container .repair-payment-option-ii-title h1,
-.repair-payment-options-container .repair-payment-option-iii-title h1{
-    font-size: 5rem;
-    color: #00aeff;
-    font-weight: 600;
+.repair-payment-options-container .repair-payment-option-iii-title h1 {
+  font-size: 5rem;
+  color: #00aeff;
+  font-weight: 600;
+  margin-right: 2rem;
 }
 
 .repair-payment-options-container .repair-payment-option-i-description p,
 .repair-payment-options-container .repair-payment-option-ii-description p,
-.repair-payment-options-container .repair-payment-option-iii-description p{
-    font-weight: 600;
-    line-height: 0.35rem;
+.repair-payment-options-container .repair-payment-option-iii-description p {
+  font-weight: 600;
+  line-height: 0.35rem;
 }
 
-@media (max-width: 1600px){
+@media (max-width: 1600px) {
+  .repair-section {
+    padding-bottom: 35rem !important;
+  }
   .repair-payment-container .repair-section-logo {
     width: 13rem;
     height: 13rem;
@@ -127,10 +132,94 @@
     top: -4.2rem;
     transform: scale(1.5) rotate(-10deg);
   }
+
+  .repair-payment-options-container .repair-payment-option-separator-hide {
+    display: none;
+  }
 }
 
-@media (max-width:1750px){
+@media (max-width: 1750px) {
   .payment-description .payment-description-pay-later h1 {
     font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 1700px){
+  .repair-section .repair-payment-options-container {
+    justify-content: center !important;
+  }
+
+  .repair-section .repair-payment-options-container {
+    bottom: -21rem;
+  }
+  .repair-payment-options-container .repair-payment-option-separator {
+    margin: 1.04rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .repair-payment-container .payment-description-card {
+    display: none;
+  }
+
+  .repair-payment-container .payment-card-img {
+    display: none;
+  }
+
+  .repair-section
+    .repair-payment-row-container
+    .repair-payment-stretch-container {
+    width: 50%;
+  }
+
+  .repair-section .repair-payment-row-container .repair-payment-logo-container {
+    justify-content: start !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .repair-section {
+    padding-bottom: 33rem !important;
+  }
+  .payment-description .payment-description-pay-later h1 {
+    font-size: 2.8rem;
+  }
+
+  .repair-payment-container .repair-section-logo {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .repair-payment-container .repair-section-logo h1 {
+    font-size: 3rem;
+  }
+
+  .payment-description .payment-description-plan h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1300px){
+  .repair-payment-options-container .repair-payment-option-separator {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .repair-section .repair-payment-row-container .repair-payment-logo-container {
+    display: none !important;
+  }
+
+  .repair-section
+    .repair-payment-row-container
+    .repair-payment-stretch-container-show {
+    width: 100% !important;
+  }
+  .repair-section .payment-description-contact {
+    flex-wrap: wrap;
+  }
+  .payment-description .payment-description-phone {
+    margin-bottom: 2%;
+    margin-right: 0;
   }
 }

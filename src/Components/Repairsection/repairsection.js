@@ -7,13 +7,16 @@ export const Repairsection = () => {
     <section className="repair-section">
       <div className="repair-section-absolute-position">
         <div className="repair-payment-container">
-          <Row className="d-flex flex-wrap">
-            <Col lg={3} className="d-flex justify-content-center align-items-center">
+          <Row className="repair-payment-row-container d-flex flex-wrap">
+            <Col
+              lg={3}
+              className="repair-payment-stretch-container repair-payment-logo-container d-flex justify-content-center align-items-center"
+            >
               <div className="repair-section-logo d-flex justify-content-center align-items-center">
                 <h1>LOGO</h1>
               </div>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} className="repair-payment-stretch-container repair-payment-stretch-container-show ">
               <Row className="payment-description d-flex justify-content-center align-items-center">
                 <Col lg={12} className="payment-description-plan text-center">
                   <h3>Ask about our payment plans</h3>
@@ -45,10 +48,10 @@ export const Repairsection = () => {
               />
             </Col>
           </Row>
-          <div className="repair-payment-options-container">
-            <Row>
-              <Col lg={4}>
-                <div className="repair-payment-option-i d-flex justify-content-evenly align-items-center">
+          <div className="repair-payment-options-container d-flex justify-content-between flex-wrap">
+            {/* <Row className="d-flex flex-wrap"> */}
+              {/* <Col lg={4}> */}
+                <div className="repair-payment-option-i d-flex justify-content-between align-items-center">
                   <div className="repair-payment-option-i-title">
                     <h1>01</h1>
                   </div>
@@ -56,11 +59,11 @@ export const Repairsection = () => {
                     <h1>Do it now</h1>
                     <p>Big jobs or little jobs, repaired today.</p>
                   </div>
-                  <div className="repair-payment-option-separator"></div>
+                  <div className="repair-payment-option-separator repair-payment-option-separator-hide"></div>
                 </div>
-              </Col>
-              <Col lg={4}>
-                <div className="repair-payment-option-ii d-flex justify-content-evenly align-items-center">
+              {/* </Col>
+              <Col lg={4}> */}
+                <div className="repair-payment-option-ii d-flex justify-content-between align-items-center">
                   <div className="repair-payment-option-ii-title">
                     <h1>02</h1>
                   </div>
@@ -68,11 +71,11 @@ export const Repairsection = () => {
                     <h1>Pay later</h1>
                     <p>Pay if off in small, affordable installments.</p>
                   </div>
-                  <div className="repair-payment-option-separator"></div>
+                  <div className="repair-payment-option-separator repair-payment-option-separator-hide"></div>
                 </div>
-              </Col>
-              <Col lg={4}>
-                <div className="repair-payment-option-iii d-flex justify-content-evenly align-items-center">
+              {/* </Col>
+              <Col lg={4}> */}
+                <div className="repair-payment-option-iii d-flex justify-content-between align-items-center">
                   <div className="repair-payment-option-iii-title">
                     <h1>03</h1>
                   </div>
@@ -81,8 +84,8 @@ export const Repairsection = () => {
                     <p>Talk to us to find out more.</p>
                   </div>
                 </div>
-              </Col>
-            </Row>
+              {/* </Col>
+            </Row> */}
           </div>
         </div>
       </div>
