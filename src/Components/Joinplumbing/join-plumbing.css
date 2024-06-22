@@ -40,14 +40,36 @@
     font-size: 2.5rem;
   }
   .join-plumbing-section .join-plumbing-section-description p {
-    font-size:1.3rem;
+    font-size: 1.3rem;
   }
   .join-plumbing-section .p-5 {
     padding: 0 !important;
   }
-  @media (max-width: 992px){
-    .join-plumbing-section .md-margin-bottom{
-        margin-bottom: 2rem;
+  @media (max-width: 992px) {
+    .join-plumbing-section .md-margin-bottom {
+      margin-bottom: 2rem;
     }
   }
+}
+
+@media (max-width: 475px) {
+  .join-plumbing-section {
+    padding: 2rem 2rem;
+  }
+  .join-plumbing-section .join-plumbing-section-logo {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .join-plumbing-section .join-plumbing-section-logo h1 {
+    font-size: 3rem;
+  }
+
+  .join-plumbing-section .join-plumbing-section-description h1 {
+    font-size: 1.5rem;
+}
+
+.join-plumbing-section .join-plumbing-section-description p {
+    font-size: 1rem;
+}
 }

@@ -177,4 +177,24 @@
   .clients-container .booking-container {
     margin-top: 0;
   }
+
+  @media (max-width: 475px) {
+    .clients-container {
+      width: 100%;
+      height: auto;
+      padding: 2rem;
+    }
+
+    .clients-container .clients-section-title h1 {
+      font-size: 3.5rem;
+    }
+
+    .clients-container .client-quote-content-container {
+      margin-top: 1rem !important;
+    }
+
+    .booking-container .booking-container-title h1 {
+      font-size: 3.5rem;
+    }
+  }
 }

@@ -23,3 +23,22 @@
     background-color: #004881;
     color: white;
 }
+
+@media(max-width: 475px){
+    .faqs-section {
+        padding: 2rem 2rem;
+    }
+
+    .faqs-section .faqs-section-title h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .faqs-section .faqs-section-description h3 {
+        font-size: 1rem;
+    }
+
+    .faqs-table-box {
+        padding: 1rem 2rem 1rem 0px;
+    }
+}

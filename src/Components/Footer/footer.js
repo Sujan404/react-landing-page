@@ -70,7 +70,7 @@ export const Footer = () => {
             <div>
                 <p>©2023 .All rights reserved. here's our Terms and Conditions and Privacy Policy.</p>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="footer-margin d-flex flex-wrap justify-content-center align-items-center">
                 <div className="mr-3">
                     <p>Services by</p>
                 </div>

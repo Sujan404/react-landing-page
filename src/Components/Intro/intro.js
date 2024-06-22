@@ -17,7 +17,7 @@ export const Customintro = () => {
               <h1>YOUR LOCAL</h1>
               <h1 className="intro-hotwater">HOTWATER</h1>
               <h1>EXPERTS</h1>
-              <div className="price-content">
+              <div className="price-content price-content-hide">
                 <Row>
                   <Col lg={12}>
                     <ul className="list-unstyled">
@@ -79,32 +79,40 @@ export const Customintro = () => {
         <div className="service-rating">
           <Card className="service-rating-facebook">
             <Card.Body>
-              <Card.Title>4.9</Card.Title>
-              <Card.Text className="text-center">
+              <Card.Title className="d-flex justify-content-center">4.9</Card.Title>
+              <Card.Text className="text-center ">
+                <div >
                 <Ratingstars />
+                <h5>
                 <small>Average Rating</small>
+                </h5>
 
                 <h3>Facebook</h3>
+                </div>
               </Card.Text>
             </Card.Body>
           </Card>
 
           <Card className="service-rating-google">
             <Card.Body>
-              <Card.Title>5.0</Card.Title>
-              <Card.Text className="text-center">
+              <Card.Title className="d-flex justify-content-center">5.0</Card.Title>
+              <Card.Text className="text-center d-flex justify-content-center">
+                <div>
                 <Ratingstars />
+                <h5>
                 <small>Average Rating</small>
+                </h5>
 
                 <h3>Google</h3>
+                </div>
               </Card.Text>
             </Card.Body>
           </Card>
 
           <Card className="emergency-services">
             <Card.Body>
-              <Card.Title className="text-center">24 h</Card.Title>
-              <Card.Text className="text-center">
+              <Card.Title className="d-flex justify-content-center text-center">24 h</Card.Title>
+              <Card.Text className="text-center d-flex justify-content-center">
                 <small>Emergency Services</small>
               </Card.Text>
             </Card.Body>

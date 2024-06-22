@@ -48,7 +48,7 @@
   font-size: 1.5rem;
   color: #fff;
 }
-.deliver-section-card{
+.deliver-section-card {
   gap: 1rem;
 }
 
@@ -142,4 +142,50 @@
   .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-ii {
     padding: 1rem;
   }
+}
+
+@media (max-width: 475px) {
+  .deliver-section-container {
+    padding: 2rem;
+  }
+
+  .deliver-banner-max-1900-show
+    .deliver-section-right-container
+    .deliver-section-title
+    h1 {
+    font-size: 3.5rem;
+  }
+
+  .deliver-section-container
+    .deliver-banner-max-1900-show
+    .deliver-section-right-container {
+    margin: 1rem 0 10rem 0;
+  }
+
+  .deliver-banner-max-1900-show
+    .deliver-section-right-container
+    .deliver-section-description
+    p {
+    font-size: 1rem;
+  }
+
+  .deliver-section-card .deliver-section-card-i, .deliver-section-card .deliver-section-card-ii {
+    width: 15rem;
+    height: 8rem;
+  }
+
+  .deliver-section-card .deliver-section-img {
+    width: 4rem;
+  }
+
+  .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-i h3, .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-ii h3 {
+    font-size: 1rem;
+  }
+  .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-i p, .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-ii p {
+    font-size: 0.8rem;
+  }
+
+  .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-i, .deliver-banner-max-1900-show .deliver-section-card .deliver-section-card-ii {
+    padding: 0.5rem;
+}
 }

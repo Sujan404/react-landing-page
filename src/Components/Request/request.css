@@ -150,3 +150,10 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 475px){
+  .request-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

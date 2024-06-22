@@ -99,25 +99,25 @@ export const Plumbingservice = () => {
           <div className="our-brands-title-separator"></div>
         </div>
         <div className="our-brands-logo d-flex flex-wrap justify-content-around mt-4">
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={vulcan} alt="Vulcan" />
             </div>
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={thermann} alt="Thermann" />
             </div>
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={parisi} alt="Parisi" />
             </div>
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={grohe} alt="Grohe" />
             </div>
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={dux} alt="Dux" />
             </div>
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={aquamax} alt="Aquamax" />
             </div>
-            <div className="our-brands-logo-icons">
+            <div className="our-brands-logo-icons d-flex justify-content-center">
               <img className="our-brands-logo-img img-fluid" src={rheem} alt="Rheem" />
             </div>
         </div>

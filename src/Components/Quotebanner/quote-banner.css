@@ -113,3 +113,23 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 475px){
+    
+.quote-banner .quote-banner-left-content h1 {
+    font-size: 2.5rem;
+}
+
+.quote-banner-container {
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+.quote-banner-right-content .quote-banner-phone {
+    min-width: 14rem;
+}
+
+.quote-banner-right-content .quote-banner-text {
+    min-width: 14rem;
+}
+}

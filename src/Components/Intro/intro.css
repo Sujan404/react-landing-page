@@ -34,55 +34,34 @@
   width: auto;
   height: 100%;
   overflow: hidden;
-  display: block; 
+  display: block;
 }
 
-/* @media (max-width: 1799px) {
-  .technician-banner {
-    width: 50%;
-  }
-}
-
-@media (max-width: 1199px) {
-  .technician-banner {
-    width: 40%;
-  }
-}
-
-@media (max-width: 991px) {
-  .technician-banner {
-    width: 50%;
-  }
-}
-
-@media (max-width: 767px) {
-  .technician-banner {
-    width: 60%;
-  }
-} */
 .intro-content {
   position: absolute;
-  top: 6rem;
+  bottom: 3rem;
   left: 5rem;
   color: white;
+  z-index: 1;
 }
 
 .intro-content .intro-hotwater {
   position: relative;
+  /* overflow-y: hidden; */
   /* padding: 1rem 0rem; */
   background-color: #00aeff;
-  width: 94%;
+  /* width: 94%; */
 }
 
 .intro-content .intro-hotwater::before {
   content: "";
   position: absolute;
   top: 0;
-  right: -44px;
+  right: -4rem;
   width: 0;
   height: 0;
-  border-top: 135px solid transparent;
-  border-right: 45px solid #00aeff; /* Change this color to the desired border color */
+  border-top: 7.8rem solid transparent;
+  border-right: 4rem solid #00aeff; /* Change this color to the desired border color */
   transform: translateY(-0%) rotate(180deg);
 }
 
@@ -93,8 +72,8 @@
 }
 
 .intro-content h1 {
-  max-width: 50rem;
-  font-size: 7rem;
+  /* max-width: 50rem; */
+  font-size: 6.5rem;
   /* line-height: 6rem; */
   font-weight: 800;
   transform: scaleY(1.1);
@@ -132,31 +111,23 @@
 
 .list-img-container .list-img {
   transform: scale(0.6);
-  /* width: 3rem;
-    height: auto; */
 }
-
-/* .price-content-list-i::before{
-    content: "Helo";
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
 
 .service-rating {
   position: absolute;
-  width: 58%;
+  max-width: 58%;
   height: auto;
   bottom: 1rem;
   right: 2rem;
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 .service-rating-facebook,
 .service-rating-google,
 .emergency-services {
-  width: 200px;
-  height: 215px;
+  width: 12rem;
+  height: 13rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,8 +168,185 @@
 
 .emergency-services .card-text > small {
   font-size: 1.5rem;
-  line-height: 0;
 }
-/* .intro-content{
-    background-color:#1f1f1f ;
-} */
+
+@media (max-width: 1800px) {
+  .intro-content h1 {
+    font-size: 6rem;
+  }
+
+  .intro-content .intro-hotwater::before {
+    border-top: 7.3rem solid transparent;
+  }
+}
+
+@media (max-width: 1200px) {
+  .service-rating {
+    flex-direction: column;
+    right: 5rem;
+  }
+
+  .service-rating-facebook,
+  .service-rating-google,
+  .emergency-services {
+    width: 10rem;
+    height: 11rem;
+    transform: none;
+  }
+
+  .service-rating-facebook .card-title,
+  .service-rating-google .card-title {
+    font-size: 4rem;
+  }
+
+  .emergency-services .card-title {
+    font-size: 4rem;
+  }
+
+  .intro-content h1 {
+    font-size: 5rem;
+  }
+
+  .intro-content .intro-hotwater::before {
+    border-top: 6.1rem solid transparent;
+  }
+
+  .list-img-container {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .price-content-list-i p,
+  .price-content-list-ii p,
+  .price-content-list-iii p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px){
+  .intro-content{
+    bottom: 1rem;
+  }
+}
+@media (max-width: 820px) {
+  .intro-content .intro-hotwater {
+    width: 80%;
+  }
+  .intro-content h1 {
+    font-size: 3rem;
+  }
+
+  .service-rating-facebook,
+  .service-rating-google,
+  .emergency-services {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .service-rating-facebook .card-title,
+  .service-rating-google .card-title {
+    font-size: 2rem;
+  }
+  .starsContainer {
+    transform: scale(0.7);
+  }
+  .service-rating-facebook .card-text h3,
+  .service-rating-google .card-text h3 {
+    font-size: 1rem;
+  }
+
+  .service-rating-facebook .card-text h5,
+  .service-rating-google .card-text h5 {
+    font-size: 0.8rem;
+  }
+
+  .emergency-services .card-title {
+    font-size: 2rem;
+  }
+
+  .emergency-services .card-text > small {
+    font-size: 1rem;
+  }
+  .intro-content .intro-hotwater::before {
+    border-top: 3.7rem solid transparent;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro-content .price-content-hide {
+    display: none;
+  }
+
+  .intro-content .intro-hotwater {
+    width: 98%;
+  }
+
+  .service-rating {
+    bottom: 0.5rem;
+    right: 2rem;
+  }
+
+  .intro-content .intro-hotwater::before {
+    border-top: none;
+    border-right: none;
+  }
+  .plumber-img {
+    width: 100%;
+    height: auto;
+  }
+  .intro-content {
+    bottom: 1rem;
+    left: 2rem;
+  }
+
+  .intro-content h1 {
+    font-size: 1.9rem;
+  }
+
+  .price-content-list-i p,
+  .price-content-list-ii p,
+  .price-content-list-iii p {
+    font-size: 1rem;
+  }
+
+  .service-rating-facebook,
+  .service-rating-google,
+  .emergency-services {
+    width: 4rem;
+    height: 4rem;
+  }
+  .service-rating-facebook .card-title,
+  .service-rating-google .card-title {
+    font-size: 1.3rem;
+  }
+
+  .starsContainer {
+    transform: scale(0.4);
+}
+
+.service-rating-facebook .card-text h5, .service-rating-google .card-text h5 {
+  font-size: 0.5rem !important;
+  margin-top: -0.1rem !important;
+  font-size: 0.5rem !important;
+}
+
+.service-rating-facebook .card-text h3, .service-rating-google .card-text h3 {
+  font-size: 0.8rem;
+}
+
+.service-rating-facebook .card-text h3, .service-rating-google .card-text h3 {
+  margin-top: -0.7rem !important;
+}
+
+.service-rating-facebook .card-title, .service-rating-google .card-title {
+  margin-bottom: -0.4rem !important;
+}
+
+.emergency-services .card-title {
+  font-size: 1rem;
+  margin-top: -0.6rem;
+}
+.emergency-services .card-text > small {
+  font-size: 0.7rem;
+}
+}
