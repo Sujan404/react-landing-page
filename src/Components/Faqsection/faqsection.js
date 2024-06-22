@@ -53,7 +53,7 @@ export const Faqsection = () => {
             </Col>
           </Row>
 
-          <div className="quote-banner-right-content d-flex justify-content-center mt-5">
+          <div className="quote-banner-right-content d-flex flex-wrap justify-content-center mt-5">
             <div className="quote-banner-phone faqs-phone">
               <h5>1300 000 000</h5>
             </div>

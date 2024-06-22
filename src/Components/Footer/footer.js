@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <section className="footer-container">
       <div className="footer-content-container">
-        <Row>
+        <Row className="flex-wrap">
           <Col
             lg={4}
             className="d-flex justify-content-center align-items-center"
@@ -17,10 +17,13 @@ export const Footer = () => {
             </div>
           </Col>
           <Col lg={8}>
-            <Row>
-              <Col lg={4}>
+          <div className="footer-options d-flex flex-wrap justify-content-between">
+            {/* <Row>
+              <Col lg={4}> */}
+              <div>
                 <div className="footer-topic">
                   <h1>Services</h1>
+                  <div className="footer-topic-dash"></div>
                 </div>
                 <div className="footer-topic-links">
                   <p>Blocked Drains</p>
@@ -28,20 +31,26 @@ export const Footer = () => {
                   <p>Repairs & Maintenance</p>
                   <p>View All Services</p>
                 </div>
-              </Col>
-              <Col lg={4}>
+                </div>
+              {/* </Col>
+              <Col lg={4}> */}
+              <div>
                 <div className="footer-topic">
                   <h1>Quick links</h1>
+                  <div className="footer-topic-dash"></div>
                 </div>
                 <div className="footer-topic-links">
                   <p>Services</p>
                   <p>About us</p>
                   <p>FAQ</p>
                 </div>
-              </Col>
-              <Col lg={4}>
+                </div>
+              {/* </Col>
+              <Col lg={4}> */}
+              <div>
                 <div className="footer-topic">
                   <h1>Contact us</h1>
+                  <div className="footer-topic-dash"></div>
                 </div>
                 <div className="footer-topic-links">
                   <p>p:1300 000 000</p>
@@ -50,12 +59,14 @@ export const Footer = () => {
                     <h5>Get a free quote</h5>
                   </div>
                 </div>
-              </Col>
-            </Row>
+                </div>
+              {/* </Col>
+            </Row> */}
+            </div>
           </Col>
         </Row>
         <div className="footer-separator"></div>
-        <div className="footer-end d-flex justify-content-between align-items-center">
+        <div className="footer-end d-flex flex-wrap justify-content-between align-items-center text-center">
             <div>
                 <p>©2023 .All rights reserved. here's our Terms and Conditions and Privacy Policy.</p>
             </div>

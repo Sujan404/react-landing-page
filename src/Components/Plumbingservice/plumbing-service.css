@@ -92,6 +92,9 @@
   background-color: #cacaca;
   border-radius: 3rem;
 }
+.our-brands-logo{
+  gap:2rem
+}
 .our-brands-logo .our-brands-logo-icons {
   width: 12rem;
   height: auto;
@@ -105,6 +108,11 @@
   justify-content: center;
 }
 
+@media (max-width: 1500px){
+  .our-brands-logo{
+    justify-content: center !important;
+  }
+}
 @media (max-width: 1600px) {
   .our-brands .our-brands-heading .our-brands-title-separator {
     width: 100%;

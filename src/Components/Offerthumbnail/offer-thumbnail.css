@@ -29,7 +29,9 @@
     border-top: 4rem solid #808080;
     transform:  rotate(0deg);
 }
-
+ .plumbing-service-offer-thumbnail{
+    gap: 1%;
+ }
 .card-icon-container{
     min-width: 4rem;
     height: 100%;
@@ -51,16 +53,16 @@
 }
 @media (min-width:1200px){
     .plumbing-service-offer-thumbnail .thumbnail-card{
-        width: 24% !important;
+        min-width: 24% !important;
         margin-bottom: 1%;
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
 }
 @media (max-width:1200px){
     .plumbing-service-offer-thumbnail .thumbnail-card{
-        width: 32.33% !important;
+        min-width: 32.33% !important;
         margin-bottom: 1%;
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
 }
 
@@ -68,7 +70,7 @@
     .plumbing-service-offer-thumbnail .thumbnail-card{
         width: 49% !important;
         margin-bottom: 1%;
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
 }
 

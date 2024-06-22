@@ -1,32 +1,53 @@
-.join-plumbing-section{
-    padding: 3rem 5rem;
-    width: 100%;
-    height: auto;
-    background-color: #dfe0e4;
+.join-plumbing-section {
+  padding: 3rem 5rem;
+  width: 100%;
+  height: auto;
+  background-color: #dfe0e4;
 }
 
-.join-plumbing-section .join-plumbing-section-logo{
-    background-color: #fff;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
+.join-plumbing-section .join-plumbing-section-logo {
+  background-color: #fff;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
 }
 
-.join-plumbing-section .join-plumbing-section-logo h1{
-    font-size: 5rem;
-    font-weight: 700;
-    color: #004881;
+.join-plumbing-section .join-plumbing-section-logo h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #004881;
 }
-.join-plumbing-section .join-plumbing-section-description h1{
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.join-plumbing-section .join-plumbing-section-description p{
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
+.join-plumbing-section .join-plumbing-section-description h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
-.join-plumbing-section .join-plumbing-section-description u{
-    color: #00aeff;
+.join-plumbing-section .join-plumbing-section-description p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.join-plumbing-section .join-plumbing-section-description u {
+  color: #00aeff;
+}
+
+@media (max-width: 1600px) {
+  .join-plumbing-section .join-plumbing-section-logo {
+    width: 17rem;
+    height: 17rem;
+  }
+  .join-plumbing-section .join-plumbing-section-description h1 {
+    font-size: 2.5rem;
+  }
+  .join-plumbing-section .join-plumbing-section-description p {
+    font-size:1.3rem;
+  }
+  .join-plumbing-section .p-5 {
+    padding: 0 !important;
+  }
+  @media (max-width: 992px){
+    .join-plumbing-section .md-margin-bottom{
+        margin-bottom: 2rem;
+    }
+  }
 }

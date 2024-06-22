@@ -16,8 +16,8 @@
     letter-spacing: -0.1rem;
 }
 
-.quote-banner .quote-banner-left-content{
-    /* width: 70%; */
+.quote-banner-right-content{
+    gap:1rem
 }
 
 .quote-banner-right-content .quote-banner-phone{
@@ -29,7 +29,6 @@
     background-color: #004881;
     transform: skewX(-10deg);
     border: 2px solid #ffff;
-    margin-right: 2rem;
 }
 
 .quote-banner-right-content .quote-banner-text{
@@ -51,7 +50,6 @@
 
     .quote-banner-right-content .quote-banner-phone {
         min-width: 21rem;
-        margin-bottom: 1rem;
     }
     .quote-banner-right-content .quote-banner-text {
         min-width: 20rem;
