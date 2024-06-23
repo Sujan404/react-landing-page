@@ -53,17 +53,17 @@
 }
 @media (min-width:1200px){
     .plumbing-service-offer-thumbnail .thumbnail-card{
-        min-width: 24% !important;
+      width: 24% !important;
         margin-bottom: 1%;
         /* margin-left: 1%; */
     }
 }
 @media (max-width:1200px){
     .plumbing-service-offer-thumbnail .thumbnail-card{
-        min-width: 32.33% !important;
-        margin-bottom: 1%;
+       width: 32.33% !important;
+        margin-bottom: 1%; 
         /* margin-left: 1%; */
-    }
+     }
 }
 
 @media (max-width:992px){

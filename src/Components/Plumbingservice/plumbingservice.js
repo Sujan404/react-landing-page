@@ -51,7 +51,7 @@ export const Plumbingservice = () => {
             </Col>
           </Row>
         </div>
-        <div className="plumbing-service-offer-thumbnail d-inline-flex flex-wrap">
+        <div className="plumbing-service-offer-thumbnail d-inline-flex flex-wrap justify-content-center">
 
         <Offerthumbnail description={"BLOCKED DRAINS"} />
         <Offerthumbnail description={"HOTWATER"} />
