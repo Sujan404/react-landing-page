@@ -1,6 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+
 name: Deploy to AWS S3
 on:
   push:
