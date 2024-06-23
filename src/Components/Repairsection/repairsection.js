@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./repair-section.css";
 import { Col, Row } from "react-bootstrap";
 import payment from "../../assets/images/payment-card.png";
+
 export const Repairsection = () => {
+  const repariPaymentContainer = useRef(null);
+  const repairPaymentOptionsContainer = useRef(null);
+  const repairSectionRef = useRef(null);
+  
+  const updatePaddingBottom = () => {
+    if (repariPaymentContainer.current && repairPaymentOptionsContainer.current) {
+      const totalHeight = repariPaymentContainer.current.offsetHeight + repairPaymentOptionsContainer.current.offsetHeight;
+      repairSectionRef.current.style.paddingBottom = `${totalHeight}px`;
+      console.log("The total height of the two containers is: ", totalHeight);
+    }
+  };
+  window.addEventListener('resize', updatePaddingBottom);
+  window.addEventListener('load', updatePaddingBottom);
+
   return (
-    <section className="repair-section">
+    <section className="repair-section" ref={repairSectionRef}>
       <div className="repair-section-absolute-position">
-        <div className="repair-payment-container">
+        <div className="repair-payment-container" ref={repariPaymentContainer}>
           <Row className="repair-payment-row-container d-flex flex-wrap">
             <Col
               lg={3}
@@ -48,7 +63,7 @@ export const Repairsection = () => {
               />
             </Col>
           </Row>
-          <div className="repair-payment-options-container d-flex justify-content-between flex-wrap">
+          <div className="repair-payment-options-container d-flex justify-content-between flex-wrap" ref={repairPaymentOptionsContainer}>
             {/* <Row className="d-flex flex-wrap"> */}
               {/* <Col lg={4}> */}
                 <div className="repair-payment-option-i d-flex justify-content-between align-items-center">

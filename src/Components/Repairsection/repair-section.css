@@ -1,5 +1,5 @@
 .repair-section {
-  padding: 0 5rem 40rem 5rem;
+  padding: 0 5rem 0 5rem;
   width: 100%;
   height: auto;
   background-color: #f0f0f0;
@@ -118,9 +118,6 @@
 }
 
 @media (max-width: 1600px) {
-  .repair-section {
-    padding-bottom: 35rem !important;
-  }
   .repair-payment-container .repair-section-logo {
     width: 13rem;
     height: 13rem;
@@ -188,9 +185,6 @@
 }
 
 @media (max-width: 1400px) {
-  .repair-section {
-    padding-bottom: 33rem !important;
-  }
   .payment-description .payment-description-pay-later h1 {
     font-size: 2.8rem;
   }
