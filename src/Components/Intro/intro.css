@@ -57,11 +57,11 @@
   content: "";
   position: absolute;
   top: 0;
-  right: -4rem;
+  right: -2rem;
   width: 0;
   height: 0;
   border-top: 7.8rem solid transparent;
-  border-right: 4rem solid #00aeff; /* Change this color to the desired border color */
+  border-right: 2rem solid #00aeff; /* Change this color to the desired border color */
   transform: translateY(-0%) rotate(180deg);
 }
 
@@ -209,6 +209,8 @@
 
   .intro-content .intro-hotwater::before {
     border-top: 6.1rem solid transparent;
+    right: -2rem;
+    border-right: 2rem solid #00aeff;
   }
 
   .list-img-container {
@@ -216,6 +218,9 @@
     height: 3rem;
   }
 
+  .request-right-container .text-container  .text-container-border h4 {
+    font-size: 1.2rem !important;
+  }
   .price-content-list-i p,
   .price-content-list-ii p,
   .price-content-list-iii p {
@@ -223,24 +228,47 @@
   }
 }
 
-@media (max-width: 992px){
-  .intro-content{
-    bottom: 1rem;
-  }
-}
-@media (max-width: 820px) {
+@media (max-width: 992px) {
   .intro-content .intro-hotwater {
-    width: 80%;
+    width: 70%;
   }
   .intro-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
+  .intro-content {
+    bottom: 1rem;
+  }
+  .plumber-img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .list-img-container {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .intro-content .intro-hotwater::before {
+    border-top: 3.1rem solid transparent !important;
+    right: -0.8rem;
+    border-right: 0.9rem solid #00aeff;
+  }
   .service-rating-facebook,
   .service-rating-google,
   .emergency-services {
     width: 7rem;
     height: 7rem;
+  }
+
+  .price-content {
+    margin-top: 0;
+  }
+
+  .price-content-list-i p,
+  .price-content-list-ii p,
+  .price-content-list-iii p {
+    font-size: 1rem;
   }
 
   .service-rating-facebook .card-title,
@@ -272,7 +300,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 700px) {
   .intro-content .price-content-hide {
     display: none;
   }
@@ -287,8 +315,93 @@
   }
 
   .intro-content .intro-hotwater::before {
-    border-top: none;
-    border-right: none;
+    border-top: 4rem solid transparent !important;
+    border-right: 0.5rem solid #00aeff !important;
+    right: -0.5rem;
+  }
+  .plumber-img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .intro-content {
+    bottom: 1rem;
+    left: 2rem;
+  }
+
+  .intro-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .price-content-list-i p,
+  .price-content-list-ii p,
+  .price-content-list-iii p {
+    font-size: 1rem;
+  }
+
+  .service-rating-facebook,
+  .service-rating-google,
+  .emergency-services {
+    width: 4rem;
+    height: 4rem;
+  }
+  .service-rating-facebook .card-title,
+  .service-rating-google .card-title {
+    font-size: 1.3rem;
+  }
+
+  .starsContainer {
+    transform: scale(0.4);
+  }
+
+  .service-rating-facebook .card-text h5,
+  .service-rating-google .card-text h5 {
+    font-size: 0.5rem !important;
+    margin-top: -0.1rem !important;
+    font-size: 0.5rem !important;
+  }
+
+  .service-rating-facebook .card-text h3,
+  .service-rating-google .card-text h3 {
+    font-size: 0.8rem;
+  }
+
+  .service-rating-facebook .card-text h3,
+  .service-rating-google .card-text h3 {
+    margin-top: -0.7rem !important;
+  }
+
+  .service-rating-facebook .card-title,
+  .service-rating-google .card-title {
+    margin-bottom: -0.4rem !important;
+  }
+
+  .emergency-services .card-title {
+    font-size: 1rem;
+    margin-top: -0.6rem;
+  }
+  .emergency-services .card-text > small {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-content .price-content-hide {
+    display: none;
+  }
+
+  .intro-content .intro-hotwater {
+    width: 98%;
+  }
+
+  .service-rating {
+    bottom: 0.5rem;
+    right: 2rem;
+  }
+
+  .intro-content .intro-hotwater::before {
+    border-top: 2.3rem solid transparent !important;
+    right: -0.5rem;
+    border-right: 0.5rem solid #00aeff !important ;
   }
   .plumber-img {
     width: 100%;
@@ -322,31 +435,35 @@
 
   .starsContainer {
     transform: scale(0.4);
-}
+  }
 
-.service-rating-facebook .card-text h5, .service-rating-google .card-text h5 {
-  font-size: 0.5rem !important;
-  margin-top: -0.1rem !important;
-  font-size: 0.5rem !important;
-}
+  .service-rating-facebook .card-text h5,
+  .service-rating-google .card-text h5 {
+    font-size: 0.5rem !important;
+    margin-top: -0.1rem !important;
+    font-size: 0.5rem !important;
+  }
 
-.service-rating-facebook .card-text h3, .service-rating-google .card-text h3 {
-  font-size: 0.8rem;
-}
+  .service-rating-facebook .card-text h3,
+  .service-rating-google .card-text h3 {
+    font-size: 0.8rem;
+  }
 
-.service-rating-facebook .card-text h3, .service-rating-google .card-text h3 {
-  margin-top: -0.7rem !important;
-}
+  .service-rating-facebook .card-text h3,
+  .service-rating-google .card-text h3 {
+    margin-top: -0.7rem !important;
+  }
 
-.service-rating-facebook .card-title, .service-rating-google .card-title {
-  margin-bottom: -0.4rem !important;
-}
+  .service-rating-facebook .card-title,
+  .service-rating-google .card-title {
+    margin-bottom: -0.4rem !important;
+  }
 
-.emergency-services .card-title {
-  font-size: 1rem;
-  margin-top: -0.6rem;
-}
-.emergency-services .card-text > small {
-  font-size: 0.7rem;
-}
+  .emergency-services .card-title {
+    font-size: 1rem;
+    margin-top: -0.6rem;
+  }
+  .emergency-services .card-text > small {
+    font-size: 0.7rem;
+  }
 }
