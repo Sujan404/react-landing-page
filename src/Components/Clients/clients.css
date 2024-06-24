@@ -90,10 +90,10 @@
 
 .booking-container .quote-button {
   width: 100%;
-  height: 100%;
   background-color: #00aeff;
   border-radius: 0;
   font-size: 1.5rem;
+  padding: 0.5rem;
   font-weight: 600;
 }
 
