@@ -17,7 +17,7 @@ export const Repairsection = () => {
         repariPaymentContainer.current.offsetHeight +
         repairPaymentOptionsContainer.current.offsetHeight;
       repairSectionRef.current.style.paddingBottom = `${totalHeight}px`;
-      console.log("The total height of the two containers is: ", totalHeight);
+      // console.log("The total height of the two containers is: ", totalHeight);
     }
   };
 
